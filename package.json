@@ -1,0 +1,38 @@
+{
+  "name": "airhockeygame",
+  "version": "0.0.1",
+  "description": "Air Hockey game build using the Excalibur TypeScript library and vite build system.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "test": "npm run build && ex-test -d ./dist -t ./test/test.js"
+  },
+  "repository": "git+https://github.com/DevMiduz/airhockeygame.git",
+  "keywords": [
+    "excalibur",
+    "excaliburjs",
+    "vite",
+    "game-engine"
+  ],
+  "author": "Dev Miduz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevMiduz/airhockeygame/issues"
+  },
+  "homepage": "https://github.com/DevMiduz/airhockeygame#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "eslint": "^9.14.0",
+    "excalibur": "^0.29.3",
+    "globals": "^15.12.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.13.0",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "@excaliburjs/testing": "^0.26.0"
+  }
+}
