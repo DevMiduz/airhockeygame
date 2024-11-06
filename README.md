@@ -1,2 +1,2 @@
-# icehockeygame
-An Ice Hockey game using the ExcaliburJS.
+# airhockeygame
+An Air Hockey game using the ExcaliburJS.
